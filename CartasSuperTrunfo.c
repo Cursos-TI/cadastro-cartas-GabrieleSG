@@ -125,7 +125,6 @@ int main()
         printf("Vencedora em Super Poder: %d.\n\n", superPoderCartaVencedora);
 
         //Comparação de cartas - (IF)
-
             printf("\tComparação entre cartas:.\n");
         
             //Maior população
@@ -167,6 +166,7 @@ int main()
             printf("5 - PIB per capta.\n");
             printf("6 - Número de pontos turísticos.\n"); 
 
+            printf("\tInsira o número correspondente a opção:.\n");
             scanf("%d", &opcoes);
 
             switch ( opcoes )
